@@ -1,8 +1,17 @@
-This is lab4 for NYU CS202-001, Fall 2021.
-
-The code is WeensyOS, written by Eddie Kohler.
-
-The lab description is derived from UCL CS 0019 Coursework 4 and
-Harvard's CS61 Problem Set 4.
-
-See README-OS.md for information on how to run WeensyOS.
+# virtual memory project
+Xi Liu </br>
+2021 </br>
+* implementation of process creation,
+isolated kernel memory,
+isolated process address space,
+page table translation facilities,
+and the fork() system call 
+* implementation of hardware-related functions such as 
+virtual_memory_map() that maps an interval of
+virtual memory to another interval of physical 
+memory
+* maintains a pageinfo[] array that records 
+information about each physical page (which process
+owns the page and reference count)
+* displays dynamic memory allocation to the 
+color graphics adapter console
